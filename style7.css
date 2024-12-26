@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.bg-container{
+    background-color:blueviolet;
+    width:100vw;
+    height:100vh;
+}
+.head{
+    color:white;
+    font-size:40px;
+}
+@media (width:600px){
+    .bg-container{
+        background-color: orange;
+    }
+
+    
+}
+@media (max-width:599px){
+    .bg-container{
+        background-color:aqua;
+    }
+}
+@media (min-width:601px){
+    .bg-container{
+        background-color:black;
+    }
+}
+@media (orientation:landscape) and (min-width:600px){
+    .gb-container{
+        background-color:blue;
+    }
+}
