@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.bg-container{
+    background-image:url("https://img.freepik.com/premium-photo/red-chilli-chilli-flakes-table-with-text-space-top-view-dark-background_78502-283.jpg?ga=GA1.1.237841452.1729168047&semt=ais_hybrid");
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+}
+.nav-container{
+    background-color:white;
+    width:100vw;  
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+       
+}
+.logo-image{
+    width:100px;
+    height:100px;
+    margin-left: 30px;
+    
+}
+.list-items-container{
+    display:flex;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+.list-items{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.items{
+    color:black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+.image-icone{
+    width:40px;
+    display: none;
+}
+@media all and (max-width:600px){
+    .image-icone{
+        display:block;
+    }
+    .list-items-container{
+        background-color:white;
+        width:100vw;
+        position:absolute;
+        top:100px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        overflow:hidden;
+        transition: 1s linear;
+    }
+    .list-itmes{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+}
+.heading{
+    color:white;
+    font-size:35px;
+    font-weight:600;
+    font-family:sans-serif;
+    position:relative;
+    width:350px;
+    top:30%;
+    left:35%;
+    
+}
+@media all and (max-width:600px){
+    .heading{
+        font-size: 30px;
+        width:200px;
+    }
+}
+    

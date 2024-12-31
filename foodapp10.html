@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food/app</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <div class="bg-container">
+        <nav class="nav-container">
+        <img src="https://img.freepik.com/premium-photo/simple-luxury-restaurant-logo-design-linear-style_1315895-1740.jpg?ga=GA1.1.237841452.1729168047&semt=ais_siglip" class="logo-image">
+        <ul class="list-items-container" id="menu-items">
+            <li class="list-items">
+                <a href="" class="items">Home</a>
+            </li>
+            <li class="list-items">
+                <a href="" class="items">Why choose us?</a>
+            </li>
+            <li class="list-items">
+                <a href="" class="items">Menu</a>
+            </li>
+            <li class="list-items">
+                <a href="" class="items">Contant</a>
+            </li>
+        </ul>
+        <img src="https://cdn-icons-png.freepik.com/256/9073/9073315.png?ga=GA1.1.237841452.1729168047&semt=ais_hybrid" class="image-icone" id="menu-bar-icon"/>
+    </nav>
+    <h1 class="heading">Food is the ingredient that binds us together</h1>
+   </div>
+    <script>
+        let icon = document.getElementById("menu-bar-icon");
+        let menuItems = document.getElementById("menu-items");
+        menuItems.style.height = "0px"
+        icon.onclick=function(){
+            if(menuItems.style.height == "0px"){
+            menuItems.style.height = "300px"
+            }else{
+                menuItems.style.height = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
