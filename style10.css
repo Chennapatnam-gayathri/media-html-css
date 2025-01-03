@@ -2,6 +2,9 @@
     margin:0px;
     padding:0px;
     box-sizing:border-box;
+body{
+    overflow-x: hidden;
+}
 }
 .bg-container{
     background-image:url("https://img.freepik.com/premium-photo/red-chilli-chilli-flakes-table-with-text-space-top-view-dark-background_78502-283.jpg?ga=GA1.1.237841452.1729168047&semt=ais_hybrid");
@@ -16,6 +19,8 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
+    position:fixed;
+    top:0px;
     
        
 }
@@ -86,4 +91,154 @@
         width:200px;
     }
 }
+.why-choose-us-container{
+    background-color:rgb(212, 225, 212);
+    width:100vw;
+    min-height:100vh;
+    padding-bottom: 20px;
+}
+.why-choose-us-heading{
+    color:rgb(42,40,40);
+    font-size:40px;
+    font-weight:600;
+    font-weight:sans-serif;
+    text-align: center;
+    margin:20px;
+}
+.why-choose-us-card{
+    background-color:white;
+    width:300px;
+    height:250px;
+    border-radius:20px;
+    box-shadow:2px 2px 3px 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin-bottom: 20px;
+    flex-grow:1;
+    margin-left: 20px;
+    margin-right: 20px;
     
+}
+.crad-heading{
+    color:rgb(37,36,36);
+    font-size:24px;
+    font-weight:500px;
+    font-family:sans-serif;
+    font-weight: 10px;
+    
+}
+.image{
+    height:100px;
+    width:100px;
+}
+.card-para{
+    color:rgb(68,66,66);
+    font-size:18px;
+    font-weight: 500px;
+    font-family:sans-serif;
+    
+}
+.row-wise-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.offer{
+    color:black;
+    font-weight:400px;
+    font-size:20px;
+    font-family: sans-serif;
+
+
+}
+.menu-card{
+    background-color: white;
+    height:300px;
+    width:400px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+@media all and (max-midth:600px){
+    .menu-card{
+        width:250px;
+    }
+}
+
+
+.menu-images{
+    width:300px;
+    height:150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+}
+.view-more{
+    align-self:flex-end;
+    padding-top: 20px;
+    margin-right:40px;
+}
+.menu-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.follow-us-image{
+    width:100px;
+    margin-top:30px;
+    margin-right:30px;
+}
+@media all and (max-width:600px){
+    .follow-us-image{
+        width:60px;
+    }
+}
+
+.follow-us-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-container{
+    background-color: rgb(64, 59, 59);
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gmail{
+    color:white;
+    font-size:30px;
+    font-weight:600px;
+    font-size:sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.address{
+    color:white;
+    font-size:24px;
+    font-weight:500px;
+    font-size:sans-serif;
+
+}
+@media all and (max-width:600px){
+    .gmail{
+        font-size:24px;
+    }
+    .address{
+        font-size:15px;
+    }
+}
