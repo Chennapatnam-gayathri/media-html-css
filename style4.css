@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    background-image:url("https://t3.ftcdn.net/jpg/07/62/36/62/240_F_762366257_61VqzAKGZHjOOSjkPiDUNLShFQPBGrWK.jpg");
+    width:100vw;
+    height:50vh;
+    background-size:cover;
+    margin-top:-60px;
+    margin-left:-8px;
+}
+.title-heading{
+    color:rgb(256,256,256);
+    font-size:60px;
+    font-weight:400px;
+    font-family:sans-serif;
+    padding:270px;
+}
+.technologies-background{
+    background-color:rgb(41,38,38);
+    width:100vw;
+    height:100vh;
+    margin-left:-10px;
+    margin-top: -295px;
+}
+.technologies-background{
+    color:rgb(256,256,256);
+    font-size:20px;
+    font-weight:10px;
+    font-family:sans-serif;
+    text-align:center;
+    padding-top:10px;
+
+}
+.frontend-techologies{
+    color:rgb(256,256,256);
+    font-size:34px;
+    font-weight: 600px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.technologies-card{
+    background-color:rgb(79,76,76);
+    width:400px;
+    height:300px;
+    border-radius: 20px;
+}
+.image{
+    width:400px;
+    height:200px;
+
+}
+.technologies{
+    color:rgb(256,256,256);
+    font-size:30px;
+    font-weight:600px;
+    font-family: sans-serif;
+    text-align:center;
+}
+.card{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
